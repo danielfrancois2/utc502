@@ -1,1 +1,1 @@
-ln a.txt link_to_a.txt
+ln -s a.txt link_to_a.txt
