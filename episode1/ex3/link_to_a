@@ -1,1 +1,1 @@
-ln -s /home/episode1/ex1/a.txt /home/episode1/link_to_a.txt
+ln a.txt link_to_a.txt
