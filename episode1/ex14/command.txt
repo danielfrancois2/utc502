@@ -1,0 +1,8 @@
+# 1. Créer un fichier nommé confidentiel.txt
+touch confidentiel.txt
+
+# 2. Changer le propriétaire du fichier pour l'utilisateur apprenant1
+sudo chown apprenant1:apprenant1 confidentiel.txt
+
+# 3. Modifier les droits pour que seul le propriétaire puisse lire et écrire
+chmod 600 confidentiel.txt
