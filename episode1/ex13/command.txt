@@ -1,0 +1,8 @@
+# Créer l'utilisateur apprenant1
+sudo adduser apprenant1
+
+# Créer le groupe etudiants s'il n'existe pas
+sudo groupadd etudiants || echo "Le groupe etudiants existe déjà."
+
+# Ajouter l'utilisateur apprenant1 au groupe etudiants
+sudo usermod -aG etudiants apprenant1
