@@ -1,0 +1,15 @@
+[Unit]
+
+Description= Findme service
+After=network.target
+
+[Service]
+Type=simple
+ExecStart=FindMe.sh
+User=root
+Restart=always
+RestartSec=60
+
+[Install]
+
+WantedBy= multi-user.target
